@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+    <div class="nav-container">
+        <a href="#" class="nav-logo">RecipeFinder</a>
+        <div class="nav-links">
+            <a href="#" class="nav-link active" id="home-btn"><i class="fas fa-home"></i> Home</a>
+            <a href="about.html" class="nav-link" id="about-btn"><i class="fas fa-info-circle"></i> About</a>
+            <button class="theme-toggle" id="theme-toggle">
+                <i class="fas fa-moon"></i> Dark Mode
+            </button>
+        </div>
+    </div>
+</nav>
+
+    <header>
+        <h1>Recipe Finder</h1>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search recipes...">
+            <button id="search-btn"><i class="fas fa-search"></i></button>
+        </div>
+    </header>
+
+    <main>
+        <section class="filters">
+            <div class="filter-group">
+                <h3>Meal Type</h3>
+                <div class="filter-options">
+                    <label><input type="checkbox" name="meal-type" value="breakfast"> Breakfast</label>
+                    <label><input type="checkbox" name="meal-type" value="lunch"> Lunch</label>
+                    <label><input type="checkbox" name="meal-type" value="dinner"> Dinner</label>
+                    <label><input type="checkbox" name="meal-type" value="dessert"> Dessert</label>
+                    <label><input type="checkbox" name="meal-type" value="snack"> Snack</label>
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <h3>Cuisine</h3>
+                <div class="filter-options">
+                    <label><input type="checkbox" name="cuisine" value="italian"> Italian</label>
+                    <label><input type="checkbox" name="cuisine" value="mexican"> Mexican</label>
+                    <label><input type="checkbox" name="cuisine" value="asian"> Asian</label>
+                    <label><input type="checkbox" name="cuisine" value="american"> American</label>
+                    <label><input type="checkbox" name="cuisine" value="mediterranean"> Mediterranean</label>
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <h3>Dietary Restrictions</h3>
+                <div class="filter-options">
+                    <label><input type="checkbox" name="diet" value="vegetarian"> Vegetarian</label>
+                    <label><input type="checkbox" name="diet" value="vegan"> Vegan</label>
+                    <label><input type="checkbox" name="diet" value="gluten-free"> Gluten Free</label>
+                    <label><input type="checkbox" name="diet" value="dairy-free"> Dairy Free</label>
+                </div>
+            </div>
+
+            <button id="reset-filters">Reset Filters</button>
+        </section>
+
+        <section class="recipes-container">
+            <!-- Recipe cards will be dynamically inserted here -->
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
