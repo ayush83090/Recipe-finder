@@ -81,7 +81,7 @@ You’re free to **use, modify & share** with proper attribution. 🌟
 
 ## 💌 **Connect with Me**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ayush_Pandey-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/ayushpandey)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ayush_Pandey-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/ayush-pandey-7566a128b/)
 [![GitHub](https://img.shields.io/badge/GitHub-ayush83090-black?style=flat-square&logo=github)](https://github.com/ayush83090)
 
 ---
